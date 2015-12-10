@@ -1,7 +1,8 @@
 <?php
-$apiurl = "http://localhost/tstnew/api/xml/tours/tour_info";
+include("config.php");
+$apiurl = hostname."api/xml/tours/tour_info";
 
-$params['tour_id'] = $_GET['tour_id'];
+$params['tour_id'] = $_POST['tour_id'];
 
 
 include "libraries/Requests.php";
@@ -17,6 +18,9 @@ try {
     
     if($result->success == 0):
         echo "<h3>No tour found</h3>";
+    ?>
+    <textarea style="width: 100%;" rows="10"><?=$request->body?></textarea>
+    <?php    
         die();
     endif;
     $tourInfo = $result->tourInfo;
@@ -52,6 +56,7 @@ try {
             }
             ?>
         </div>
+        <textarea style="width: 100%;" rows="10"><?=$request->body?></textarea>
     </div>
 </div>    
     <?php    

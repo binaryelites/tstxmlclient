@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <travelers_details>
+        <adult></adult>
+        <children></children>
+        <child_rate></child_rate>
+    </travelers_details>
+</root>
