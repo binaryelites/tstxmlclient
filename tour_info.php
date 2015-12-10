@@ -2,7 +2,7 @@
 include("config.php");
 $apiurl = hostname."api/xml/tours/tour_info";
 
-$params['tour_id'] = $_POST['tour_id'];
+$params['tour_id'] = $_GET['tour_id'];
 
 
 include "libraries/Requests.php";
