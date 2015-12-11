@@ -5,7 +5,7 @@ $apiurl = hostname."api/xml/tours/get_order_info";
 include "libraries/Requests.php";
 Requests::register_autoloader();
 
-$params['order_id'] = 45;
+$params['order_id'] = $_GET['order_id'];
 
 $payload = file_get_contents("buyer.xml"); 
         
