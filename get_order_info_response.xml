@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+    <success>1</success>
+    <order>
+        <ID>45</ID>
+        <User_ID>1</User_ID>
+        <Cart_ID></Cart_ID>
+        <Date_Created>2015-12-11 08:58:26</Date_Created>
+        <Status_ID>completed</Status_ID>
+        <Email></Email>
+        <Last_Name></Last_Name>
+        <First_Name></First_Name>
+        <Vat_Tax_Number></Vat_Tax_Number>
+        <Street_Address></Street_Address>
+        <Phone_Office></Phone_Office>
+        <Phone_Mobile></Phone_Mobile>
+        <Fax></Fax>
+        <City></City>
+        <State></State>
+        <Postal_Code></Postal_Code>
+        <Country_ID>0</Country_ID>
+        <Job_Title></Job_Title>
+        <Invoice_Currency></Invoice_Currency>
+        <customer_type>customer</customer_type>
+        <Country_Name></Country_Name>
+        <Total_Items>2</Total_Items>
+        <Order_Total>2122.00</Order_Total>
+    </order>
+    <_config_data_>
+        <site_url>http://localhost/tstnew/</site_url>
+        <image_path>http://localhost/tstnew/assets/public/files/</image_path>
+    </_config_data_>
+</result>

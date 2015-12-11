@@ -3,7 +3,7 @@
     <user_id>1</user_id>
     <api_key>123</api_key>
     <api_pass>123</api_pass>
-    <item_id>41</item_id>
+    <item_id>41</item_id> <!--optional :: if present then updates item -->
     <order_id>45</order_id>
     <tour_id>23851</tour_id>
     <tour_price_id>1</tour_price_id>    
@@ -29,12 +29,12 @@
         </adult>
         <children>
             <item>
-                <name></name>
-                <age></age>
+                <name>Ansha</name>
+                <age>3</age>
             </item>
             <item>
-                <name></name>
-                <age></age>
+                <name>Anzara</name>
+                <age>4</age>
             </item>
         </children>
         <child_rate></child_rate>

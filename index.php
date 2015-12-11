@@ -5,7 +5,7 @@
     </head>
     <body>
         <form action="search.php" method="post">
-            <input type="text" value="" name="tour_name"  />
+            <input type="text" value="" name="tour_name_like"  />
             <button type="submit">Search</button>
         </form>
     </body>

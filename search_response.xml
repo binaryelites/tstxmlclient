@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+    <item>
+        <ID>2479</ID>
+        <Name>5 DAYS TASTE OF TURKEY TOUR </Name>
+        <User_ID></User_ID>
+        <Description></Description>
+        <Facilities_Exclude></Facilities_Exclude>
+        <Facilities_Include></Facilities_Include>
+        <Available_On_Dates></Available_On_Dates>
+        <Tour_Category_ID></Tour_Category_ID>
+        <Tour_Sub_Category_ID>2139</Tour_Sub_Category_ID>
+        <Images_Banner></Images_Banner>
+        <Image_Long>bosphorus_bridge_istanbul.jpg</Image_Long>
+        <Image_Tall></Image_Tall>
+        <Available_On_Weekdays>"7","1","2","3"</Available_On_Weekdays>
+        <Promotion_Price>200.00</Promotion_Price>
+        <Promotion_Text>Good discount</Promotion_Text>
+        <Min_Guest_Count>10</Min_Guest_Count>
+        <Tour_Start_City>Istanbul</Tour_Start_City>
+        <Tour_End_City>Istanbul</Tour_End_City>
+        <Departure_Time></Departure_Time>
+        <Tour_Route>Istanbul</Tour_Route>
+        <Terms_Conditions></Terms_Conditions>        
+        <Duration>5</Duration>
+        <Tour_Sub_Categories_Additional></Tour_Sub_Categories_Additional>
+        <Price_Default>0.00</Price_Default>
+        <Is_Active>1</Is_Active>
+        <Discount>7.00</Discount>
+        <Coordinates></Coordinates>
+        <Discount_Infant>0.00</Discount_Infant>
+        <Discount_Baby>0.00</Discount_Baby>
+        <Discount_Minor>0.00</Discount_Minor>
+        <Countries></Countries>
+        <Hotels></Hotels>
+        <Discount_Flat>0.00</Discount_Flat>
+        <Is_Fixed_Rate>0</Is_Fixed_Rate>
+        <Rate_Infant>0.00</Rate_Infant>
+        <Alias_ID>2479</Alias_ID>
+        <Tour_Alias>5-DAYS-TASTE-OF-TURKEY-TOUR-2</Tour_Alias>
+        <Sub_Category_ID>2139</Sub_Category_ID>
+        <Tour_Sub_Category_Name>Guaranteed Departure Tours</Tour_Sub_Category_Name>
+        <Tour_Category_Name>Turkey Tours</Tour_Category_Name>
+        <Category_ID>1789</Category_ID>
+        <Country_Name>Turkey</Country_Name>
+        <SCA_Cat_ID></SCA_Cat_ID>
+    </item>
+    <item>
+        <ID>23851</ID>
+        <Name>5 DAYS TASTE OF TURKEY TOUR </Name>
+        <User_ID></User_ID>
+        <Description></Description>
+        <Facilities_Exclude></Facilities_Exclude>
+        <Facilities_Include></Facilities_Include>        
+        <Highlights> We are proud to offer you a Great programme with Great prices during the 10th year of our Company. To protect you experiencing long bus rides, we have arranged an itinerary that includes domestic flights with short bus rides. We are offering you the best touristic Destinations of Turkey, the best and foremost museums of our country with informative and experienced guides, comfortable cars, Great breakfasts, lunches and dinners. We will also have some surprises for you during our tours. To have fun, travel around and meet with new people, do not miss out our special programme for our 10th anniversary.</Highlights>
+        <Available_On_Dates>"2015-11-06"</Available_On_Dates>
+        <Tour_Category_ID></Tour_Category_ID>
+        <Tour_Sub_Category_ID>23843</Tour_Sub_Category_ID>
+        <Images_Banner></Images_Banner>
+        <Image_Long>5 dayss.jpg</Image_Long>
+        <Image_Tall></Image_Tall>
+        <Available_On_Weekdays>"6"</Available_On_Weekdays>
+        <Promotion_Price>0.00</Promotion_Price>
+        <Promotion_Text>Winter Sale</Promotion_Text>
+        <Min_Guest_Count>1</Min_Guest_Count>
+        <Tour_Start_City>Istanbul</Tour_Start_City>
+        <Tour_End_City>Istanbul</Tour_End_City>
+        <Departure_Time></Departure_Time>
+        <Tour_Route>Istanbul, Cappadocia, Istanbul</Tour_Route>
+        <Terms_Conditions></Terms_Conditions>        
+        <Duration>5</Duration>
+        <Tour_Sub_Categories_Additional></Tour_Sub_Categories_Additional>
+        <Price_Default>100.00</Price_Default>
+        <Is_Active>1</Is_Active>
+        <Discount>3.00</Discount>
+        <Coordinates></Coordinates>
+        <Discount_Infant>5.00</Discount_Infant>
+        <Discount_Baby>1.00</Discount_Baby>
+        <Discount_Minor>0.00</Discount_Minor>
+        <Countries></Countries>
+        <Hotels></Hotels>
+        <Discount_Flat>0.00</Discount_Flat>
+        <Is_Fixed_Rate>1</Is_Fixed_Rate>
+        <Rate_Infant>20.00</Rate_Infant>
+        <Alias_ID>23851</Alias_ID>
+        <Tour_Alias>5-DAYS-TASTE-OF-TURKEY-TOUR</Tour_Alias>
+        <Sub_Category_ID>23843</Sub_Category_ID>
+        <Tour_Sub_Category_Name>10 Years Anniversary</Tour_Sub_Category_Name>
+        <Tour_Category_Name>Turkey Tours</Tour_Category_Name>
+        <Category_ID>1789</Category_ID>
+        <Country_Name>Turkey</Country_Name>
+        <SCA_Cat_ID></SCA_Cat_ID>
+    </item>
+    <item>
+        <ID>15583</ID>
+        <Name>9 DAYS INDIAN TASTE OF TURKEY TOUR</Name>
+        <User_ID></User_ID>
+        <Description></Description>        
+        <Highlights>If you are looking for something special and extraordinary then look no further. The best tour in Turkey. Enjoy first class service and guided transportation through the historical and picturesque sites of Istanbul, battlefields of Gallipoli, the Trojan Horse of Troy, Pergamon offers one of the Seven Churches of St John from the Bible before reaching the ancient city of Ephesus, the white calcium hot pools of Pamukkale and the underground cities of Cappadoccia. There are no long bus rides just domestic flights getting you to your destination comfortable and relaxed.</Highlights>
+        <Available_On_Dates>"2015-01-27"</Available_On_Dates>
+        <Tour_Category_ID></Tour_Category_ID>
+        <Tour_Sub_Category_ID>15331</Tour_Sub_Category_ID>
+        <Images_Banner></Images_Banner>
+        <Image_Long>1 (4).jpg</Image_Long>
+        <Image_Tall></Image_Tall>
+        <Available_On_Weekdays>"7","2","5"</Available_On_Weekdays>
+        <Promotion_Price>0.00</Promotion_Price>
+        <Promotion_Text></Promotion_Text>
+        <Min_Guest_Count>1</Min_Guest_Count>
+        <Tour_Start_City>Istanbul</Tour_Start_City>
+        <Tour_End_City>Istanbul</Tour_End_City>
+        <Departure_Time></Departure_Time>
+        <Tour_Route>Istanbul, Gallipoli, Troy, Pergamon, Kusadasi, Ephesus, Pamukkale, Konya, Cappadocia, Istanbul</Tour_Route>
+        <Terms_Conditions></Terms_Conditions>       
+        <Duration>9</Duration>
+        <Tour_Sub_Categories_Additional>"15331"</Tour_Sub_Categories_Additional>
+        <Price_Default>0.00</Price_Default>
+        <Is_Active>1</Is_Active>
+        <Discount>0.00</Discount>
+        <Coordinates></Coordinates>
+        <Discount_Infant>0.00</Discount_Infant>
+        <Discount_Baby>0.00</Discount_Baby>
+        <Discount_Minor>0.00</Discount_Minor>
+        <Countries></Countries>
+        <Hotels></Hotels>
+        <Discount_Flat>0.00</Discount_Flat>
+        <Is_Fixed_Rate>0</Is_Fixed_Rate>
+        <Rate_Infant>0.00</Rate_Infant>
+        <Alias_ID>15583</Alias_ID>
+        <Tour_Alias>9-DAYS-INDIAN-TASTE-OF-TURKEY-TOUR</Tour_Alias>
+        <Sub_Category_ID>15331</Sub_Category_ID>
+        <Tour_Sub_Category_Name>Indian Packages</Tour_Sub_Category_Name>
+        <Tour_Category_Name>Turkey Tours</Tour_Category_Name>
+        <Category_ID>1789</Category_ID>
+        <Country_Name>Turkey</Country_Name>
+        <SCA_Cat_ID>1789</SCA_Cat_ID>
+    </item>
+    <_config_data_>
+        <site_url>http://localhost/tstnew/</site_url>
+        <image_path>http://localhost/tstnew/assets/public/files/</image_path>
+    </_config_data_>
+</result>
