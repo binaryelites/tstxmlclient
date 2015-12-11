@@ -8,9 +8,9 @@
     </head>
     <body>
         <h4>Save Order Information</h4>
-        <form action="API_URL" method="post">            
-            <input name="__payload__" value="contains the xml payload" />
-            <button type="submit">Search</button>
+        <form action="save_order.php" method="post">            
+            <textarea name="__payload__" style="width: 800px; height: 200px"><?=  file_get_contents("book_tour.xml")?></textarea>
+            <button type="submit">Save</button>
         </form>
     </body>
 </html>
