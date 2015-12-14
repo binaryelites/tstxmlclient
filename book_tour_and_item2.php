@@ -1,0 +1,41 @@
+<&quest;xml version="1.0" encoding="UTF-8"&quest;>
+<root>
+    <user_id>1</user_id>
+    <api_key>123</api_key>
+    <api_pass>123</api_pass>    
+    <order_id><?=$order_id?></order_id>
+    <tour_id><?=$tour_id?></tour_id>
+    <tour_price_id>1</tour_price_id>    
+    <tour_start_date>2015-12-25</tour_start_date>
+    <tour_end_date>2016-01-30</tour_end_date>
+    <total_tour_price>1081</total_tour_price>
+    <total_tour_discount>20</total_tour_discount>
+    <accommodation_type>4 star</accommodation_type>
+    <single_room_count>0</single_room_count>
+    <double_room_count>1</double_room_count>
+    <triple_room_count>0</triple_room_count>
+    <single_room_price>589</single_room_price>
+    <double_room_price>499</double_room_price>
+    <triple_room_price>479</triple_room_price>
+    <travelers_details>
+        <adult>            
+            <item>
+                <name>Arif</name>
+            </item>
+            <item>
+                <name>Tarik</name>
+            </item>
+        </adult>
+        <children>
+            <item>
+                <name>Ansha</name>
+                <age>3</age>
+            </item>
+            <item>
+                <name>Anzara</name>
+                <age>4</age>
+            </item>
+        </children>
+        <child_rate></child_rate>
+    </travelers_details>
+</root>

@@ -2,9 +2,6 @@
 include("config.php");
 $apiurl = hostname."api/xml/tours/save_order_item";
 
-include "libraries/Requests.php";
-Requests::register_autoloader();
-
 $payload = $_POST['__payload__']; //file_get_contents("save_order_item.xml"); 
 //$payload = file_get_contents("travelers_details.xml"); 
 //var_dump($payload); die();
@@ -14,6 +11,9 @@ $request = Requests::post($apiurl, array(), array('__payload__' => $payload));
 ?>
 <div style="width: 100%">
     <div style="width: 1024px; margin: 0 auto">    
+        <?php
+        include 'menu.php';
+        ?>
 <?php
 // Check what we received
 try {
@@ -26,7 +26,11 @@ try {
         echo "Success : true <br />";
         echo "Item ID : ".$result->items->item->ID."<br />";
         echo "Order ID : ".$result->items->item->Order_ID."<br />";
-        ?>        
+        echo "Item was added to the order success fully.";
+        ?>
+        
+        <a href='view_order_info.php?order_id=<?=$result->items->item->Order_ID?>'>Click to View Order Items</a>
+                
         <h2>Response from server</h2>        
         <textarea style="width: 100%; height: 400px" rows="10"><?=$request->body?></textarea>
         <?php
