@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+    <success>1</success>
+    <orders>
+        <item>
+            <Order_ID>45</Order_ID>
+            <Status_ID>completed</Status_ID>
+            <Date_Created>2015-12-11 10:43:09</Date_Created>
+            <Country_Name/>
+            <Total_Items>0</Total_Items>
+            <Order_Total/>
+        </item>
+        <item>
+            <Order_ID>28254</Order_ID>
+            <Status_ID>completed</Status_ID>
+            <Date_Created>2015-12-19 08:48:00</Date_Created>
+            <Country_Name/>
+            <Total_Items>1</Total_Items>
+            <Order_Total>1061.00</Order_Total>
+        </item>
+        <item>
+            <Order_ID>29146</Order_ID>
+            <Status_ID>pending payment</Status_ID>
+            <Date_Created>2015-12-11 11:12:40</Date_Created>
+            <Country_Name/>
+            <Total_Items>1</Total_Items>
+            <Order_Total>1061.00</Order_Total>
+        </item>
+        <item>
+            <Order_ID>35150</Order_ID>
+            <Status_ID>completed</Status_ID>
+            <Date_Created>2015-12-19 06:30:02</Date_Created>
+            <Country_Name/>
+            <Total_Items>1</Total_Items>
+            <Order_Total>1061.00</Order_Total>
+        </item>
+        <item>
+            <Order_ID>35514</Order_ID>
+            <Status_ID>completed</Status_ID>
+            <Date_Created>2015-12-19 06:29:13</Date_Created>
+            <Country_Name/>
+            <Total_Items>1</Total_Items>
+            <Order_Total>1061.00</Order_Total>
+        </item>
+        <item>
+            <Order_ID>35563</Order_ID>
+            <Status_ID>pending payment</Status_ID>
+            <Date_Created>2015-12-19 08:35:27</Date_Created>
+            <Country_Name/>
+            <Total_Items>1</Total_Items>
+            <Order_Total>1061.00</Order_Total>
+        </item>
+    </orders>
+    <_config_data_>
+        <site_url>http://travelshoptours.com/</site_url>
+        <image_path>http://travelshoptours.com/assets/public/files/</image_path>
+    </_config_data_>
+</result>
