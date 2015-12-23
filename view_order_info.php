@@ -92,13 +92,20 @@ endif;
             <b>Price_Selling : </b> <?=$i->Price_Selling?><br />
             <b>Discount : </b> <?=$i->Discount?><br />
             <b>Data : </b> <?=$i->Data?><br />
+            <a href="remove_order_items.php?order_id=<?=$i->Order_ID?>&item_id=<?=$i->Item_ID?>"><b>Remove Item</b></a>
             <hr />
             <?php
                endforeach; 
             endif;
             ?>
-            
-            <textarea style="width: 100%; height: 400px" rows="10"><?=($request1) ? $request1->body : ""?></textarea>
+            <div style="width: 49%;float: right">
+                <h5>Order Status Update XML</h5>
+                <textarea style="width: 100%; height: 400px;float: left" rows="10"><?=($request1) ? $request1->body : ""?></textarea>                
+            </div>
+            <div style="width: 49%;float: left">                
+                <h5>Order Info XML</h5>
+                <textarea style="width: 100%; height: 400px;float: right" rows="10"><?=($request) ? $request->body : ""?></textarea>
+            </div>
         </div>
     </body>
 </html>
