@@ -3,6 +3,11 @@ include("config.php");
 $apiurl = hostname."api/xml/tours/search";
 
 $params['tour_name_like'] = $_POST['tour_name_like'];
+$params['country_id'] = $_POST['country_id'];
+$params['city_name'] = $_POST['city_name'];
+$params['sub_category_id'] = $_POST['sub_category_id'];
+$params['duration'] = $_POST['duration'];
+$params['budget'] = $_POST['budget'];
 
 $payload = file_get_contents("buyer.xml");
 
