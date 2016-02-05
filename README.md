@@ -9,3 +9,6 @@
 ##save_item.php  --- order item save page##
 1. To add a new item to and existing order we need to put item_id = 0
 2. To update and existing item, the item_id should be there
+
+##Hotel Example URL
+/hotels/index.php
