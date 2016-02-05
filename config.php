@@ -3,7 +3,7 @@
 define("hostname", "http://travelshoptours.com/");
 include_once("libraries/Requests.php");
 Requests::register_autoloader();
-    
+
 function get_xml_file($filename, $params = array()){
     extract($params);
     //var_dump($params);
