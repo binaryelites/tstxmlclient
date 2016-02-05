@@ -98,7 +98,7 @@ try {
                                     ?>    
                                     <tr>
                                         <td>
-                                            <img class="img-responsive room-thumb" alt="<?= $r->Name ?>" src="<?= $result->_config_data_->image_path . $r->Image ?>" />
+                                            <img class="img-responsive room-thumb" style="width: 100px" alt="<?= $r->Name ?>" src="<?= $result->_config_data_->image_path . $r->Image ?>" />
                                             <b><?= $r->Name ?></b> <br />
                                             <?= (int) $r->Quantity - (int) $r->Booked_Quantity ?> Rooms Left
                                         </td>
