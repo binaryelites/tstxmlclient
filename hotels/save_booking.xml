@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <user_id>1</user_id>
+    <api_key>123</api_key>
+    <api_pass>123</api_pass>
+    <order_id>12312321</order_id>
+    <item_id>0</item_id> <!-- item id = 0 means new item will be added, else update existing item -->
+    <hotel_id>1</hotel_id>
+    <check_in_date>10-02-2016</check_in_date>
+    <check_out_date>11-02-2016</check_out_date>
+    <rooms>
+        <item>
+            <room_id>3</room_id>
+            <quantity>1</quantity>
+            <max_children>1</max_children>
+            <guest_information>
+                <item>
+                    <name>Tariq Faisal</name>
+                </item>
+            </guest_information>
+        </item>
+        <item>
+            <room_id>4</room_id>
+            <quantity>2</quantity>
+            <max_children>1</max_children>
+            <guest_information>
+                <item>
+                    <name>tar</name>
+                </item>
+                <item>
+                    <name>se sdsds</name>
+                </item>
+            </guest_information>
+        </item>
+    </rooms>
+</root>
