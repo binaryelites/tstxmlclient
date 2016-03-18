@@ -1,6 +1,6 @@
 <?php
-define("hostname", "http://localhost/tstnew/");
-//define("hostname", "http://travelshoptours.com/");
+//define("hostname", "http://localhost/tstnew/");
+define("hostname", "http://travelshoptours.com/");
 include_once("libraries/Requests.php");
 Requests::register_autoloader();
 
