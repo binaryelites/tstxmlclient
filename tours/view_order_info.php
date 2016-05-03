@@ -10,7 +10,7 @@ function get_order_xml($status, $order_id){
     return $orderxml;
 }
 
-include("config.php");
+include("../config.php");
 $apiurl = hostname."api/xml/tours/get_order_info";
 
 $payload = file_get_contents("buyer.xml"); 
@@ -42,6 +42,10 @@ $result = simplexml_load_string($request->body);
 if($result->success == 0):
     die("no order info found");
 endif;
+
+/*echo "<pre>";
+var_dump($result);
+echo "</pre>";*/
 
 $orderInfo = $result->order;
 

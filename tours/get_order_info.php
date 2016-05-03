@@ -1,14 +1,16 @@
 <?php
-include("config.php");
-$apiurl = hostname."api/xml/tours/save_order";
+include("../config.php");
+$apiurl = hostname."api/xml/tours/get_order_info";
 
 include "libraries/Requests.php";
 Requests::register_autoloader();
 
-$payload = $_POST['__payload__']; //file_get_contents("book_tour.xml"); 
+$params['order_id'] = $_GET['order_id'];
+
+$payload = file_get_contents("buyer.xml"); 
         
 // Now let's make a request!
-$request = Requests::post($apiurl, array(), array('__payload__' => $payload));
+$request = Requests::post($apiurl."?".  http_build_query($params), array(), array('__payload__' => $payload));
 //echo "<pre>";
 ?>
 <div style="width: 100%">

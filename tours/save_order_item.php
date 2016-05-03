@@ -1,5 +1,5 @@
 <?php
-include("config.php");
+include("../config.php");
 $apiurl = hostname."api/xml/tours/save_order_item";
 
 $payload = $_POST['__payload__']; //file_get_contents("save_order_item.xml"); 

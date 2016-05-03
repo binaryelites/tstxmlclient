@@ -10,7 +10,7 @@ function get_xml($order_id, $item_id){
     return $orderxml;
 }
 
-include("config.php");
+include("../config.php");
 $apiurl = hostname."api/xml/tours/remove_order_items";
 
 $order_id = isset($_GET['order_id']) ? (int)$_GET['order_id'] : 0;

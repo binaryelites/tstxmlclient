@@ -37,7 +37,7 @@ endif;
     <body>
         <div style="width: 1024px; margin: 0 auto">
             <?php
-            include("../menu.php");
+            include("menu.php");
             ?>
             
             <h3>Order List</h3>

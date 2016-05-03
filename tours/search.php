@@ -1,5 +1,5 @@
 <?php
-include("config.php");
+include("../config.php");
 $apiurl = hostname."api/xml/tours/search";
 
 $params['tour_name_like'] = $_POST['tour_name_like'];

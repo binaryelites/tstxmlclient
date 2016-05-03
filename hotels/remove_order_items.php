@@ -42,7 +42,7 @@ endif;
     <body>
         <div style="width: 1024px; margin: 0 auto">
             <?php
-            include '../menu.php';            
+            include 'menu.php';            
             ?>
             <?php if($result->success == 1): ?>
             <h1 style="color: greenyellow">Item removed successfully</h1>

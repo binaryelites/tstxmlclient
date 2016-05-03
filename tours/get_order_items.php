@@ -1,5 +1,5 @@
 <?php
-include("config.php");
+include("../config.php");
 $apiurl = hostname."api/xml/tours/get_order_items";
 
 include "libraries/Requests.php";

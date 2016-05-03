@@ -1,5 +1,5 @@
 <?php
-include("config.php");
+include("../config.php");
 $apiurl = hostname."api/xml/tours/tour_info";
 
 $params['tour_id'] = $_GET['tour_id'];

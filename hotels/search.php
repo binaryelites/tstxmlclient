@@ -13,7 +13,7 @@ $request = Requests::post($apiurl."?".http_build_query($params), array(), array(
 <div style="width: 100%">
     <div style="width: 1024px; margin: 0 auto">    
         <?php
-        include("../menu.php");
+        include("menu.php");
         ?>
 <?php
 // Check what we received

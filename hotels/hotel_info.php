@@ -59,7 +59,7 @@ try {
 
             <div style="width: 1024px; margin: 0 auto">
                 <?php
-                include("../menu.php");
+                include("menu.php");
                 ?>
                 <div style="width: 100%; display: table;clear: both">
                     <img src="<?= $result->_config_data_->image_path . $hotelInfo->Image_Banner ?>" style="float:left; width: 200px; height: 130px; margin-right: 10px" />

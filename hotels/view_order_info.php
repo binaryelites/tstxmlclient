@@ -34,7 +34,7 @@ if(strtolower($action) == "completed" || strtolower($action) == "canceled"){
     endif;
     
     $actionMsg = "Order status set to $action";
-    var_dump($result);
+    //var_dump($result);
 }
 
 $request = Requests::post($apiurl."?order_id=".$_GET['order_id'], array(), array('__payload__' => $payload));
@@ -74,7 +74,7 @@ foreach($rooms as $r){
     <body>
         <div style="width: 1024px; margin: 0 auto">
             <?php
-            include '../menu.php';
+            include 'menu.php';
             if($actionMsg != ""):
             ?>
             <h1 style="color: greenyellow"><?=$actionMsg?></h1>

@@ -1,5 +1,5 @@
 <?php
-include ("config.php");
+include ("../config.php");
 
 $order_list = false;
 $request = false;

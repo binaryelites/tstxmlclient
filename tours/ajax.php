@@ -1,5 +1,5 @@
 <?php
-include("config.php");
+include("../config.php");
 
 $action = isset($_GET['action']) ? $_GET['action'] : "";
 

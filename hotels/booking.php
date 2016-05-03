@@ -125,7 +125,7 @@ try {
 
         <div style="width: 1024px; margin: 0 auto">
             <?php
-            include("../menu.php");
+            include("menu.php");
             ?>
             <h3>Save order item with order id : <?=$order_id?> (Order id has to be generated before we can save item)</h3>
             <div style="width: 100%; display: table;clear: both">

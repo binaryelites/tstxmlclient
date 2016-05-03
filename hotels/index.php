@@ -42,7 +42,7 @@ $payload = file_get_contents("buyer.xml");
     <body style="width: 100%">
         <div style="margin: 0 auto; width: 1024px">
             <?php
-            include("../menu.php");
+            include("menu.php");
             ?>
             <h3>Search Hotels</h3>
             <form action="search.php" method="get" id="modHotelSearchForm">

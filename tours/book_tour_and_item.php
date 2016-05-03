@@ -1,5 +1,5 @@
 <?php
-include("config.php");
+include("../config.php");
 $tour_id = $_GET['tour_id'];
 
 $tourRes = get_tour_info($tour_id);
