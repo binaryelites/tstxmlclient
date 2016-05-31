@@ -37,6 +37,30 @@ try {
             </a>
         </div>
         <div style="width: 100%; display: table;clear: both">
+            <h3>Hotels</h3>
+            <table style="width: 100%">
+                <tr>
+                    <th style="text-align: left;background: #ccc;">Name</th>
+                    <th style="text-align: left;background: #ccc;">City</th>
+                    <th style="text-align: left;background: #ccc;">Hotel Type</th>
+                </tr>
+            
+            <?php 
+            foreach($tourInfo->Hotel_Info->item as $h){
+            ?>
+            <tr>
+                <td><?=$h->Name?></td>
+                <td><?=$h->City_Name?></td>
+                <td><?=$h->Hotel_Type?></td>
+            </tr>
+            <?php    
+            }
+            ?>
+            </table>
+            <h3>Terms</h3>
+            <?=$tourInfo->Terms_Conditions?>
+        </div>
+        <div style="width: 100%; display: table;clear: both">
             <h3>Facilities Include</h3>
             <?=$tourInfo->Facilities_Include_Old?>
             <h3>Facilities Exclude</h3>
