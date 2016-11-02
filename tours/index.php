@@ -2,6 +2,14 @@
 include("../config.php");
 $payload = file_get_contents("buyer.xml");
 
+$apiurl = hostname."api/xml/tours/get_continents";
+$request = Requests::post($apiurl, array(), array('__payload__' => $payload));
+$result = simplexml_load_string($request->body);
+$continents = array();
+if($result->success == 1):
+    $continents = $result->continents->item;
+endif;
+
 $apiurl = hostname."api/xml/tours/get_countries";
 $request = Requests::post($apiurl, array(), array('__payload__' => $payload));
 $result = simplexml_load_string($request->body);
@@ -39,11 +47,20 @@ endif;
                     <input type="text" value="" name="tour_name_like"  />
                 </p>
                 <p>
+                    <b>Continent</b><br />
+                    <select name="continent_id" id="continent" onchange="app.filterCountryList(this);">
+                        <option></option>
+                    <?php foreach($continents as $c): ?>
+                        <option value="<?=$c->ID?>"><?=$c->Name?></option>
+                    <?php endforeach; ?>
+                    </select>
+                </p>
+                <p>
                     <b>Country</b><br />
-                    <select name="country_id" id="country" onchange="return app.get_cities_subcategories_by_country(this);">
+                    <select name="country_id" id="country_id" onchange="return app.get_cities_subcategories_by_country(this);">
                         <option></option>
                     <?php foreach($countries as $c): ?>
-                        <option value="<?=$c->ID?>"><?=$c->Name?></option>
+                        <option value="<?=$c->ID?>" data-continent-id="<?=$c->Continent_ID?>"><?=$c->Name?></option>
                     <?php endforeach; ?>
                     </select>
                 </p>
@@ -54,8 +71,8 @@ endif;
                     </select>
                 </p>
                 <p>
-                    <label for="search_tour_category">Category</label><br />
-                    <select class="form-control input-sm" name="sub_category_id" id="search_tour_category">                    
+                    <label for="search_tour_style">Tour Style</label><br />
+                    <select class="form-control input-sm" name="style_id" id="search_tour_style">                    
                         <option></option>
                     </select>
                 </p>
@@ -116,7 +133,7 @@ endif;
 
                     console.log(data);
                     app.render_city_list(data.result.cities.item, "search_tour_city");
-                    app.render_subcategory_list(data.result.sub_categories.item, "search_tour_category");
+                    app.render_style_list(data.result.styles.item, "search_tour_style");
                 })
                 .error(function(data){
                     app.enableElement($($this).attr("id"));
@@ -126,7 +143,24 @@ endif;
                 })
             };
 
-            app.render_city_list = function($result, $domid){                
+            app.filterCountryList = function($this){
+                var $continentId = app.parseInt($($this).val());
+
+                $("#country_id option").each(function(e){
+                    var $displayOption = "block";
+                    var $cntId = app.parseInt($(this).attr("data-continent-id"));
+                    if($continentId > 0 && $cntId != $continentId){
+                        $displayOption = "none";
+                    }
+
+                    $(this).css("display", $displayOption);
+
+                });
+                return false;
+            };
+    
+            app.render_city_list = function($result, $domid){   
+                $result = $result == undefined ? [] : $result;
                 var $html = "<option value=''></option>";
                 if(!$.isArray($result)){
                     $result = [$result]; 
@@ -138,8 +172,8 @@ endif;
                 $("#"+$domid).html($html);
             };
 
-            app.render_subcategory_list = function($result, $domid){
-                console.log($result);
+            app.render_style_list = function($result, $domid){
+                $result = $result == undefined ? [] : $result;
                 if(!$.isArray($result)){
                     $result = [$result]; 
                 }
