@@ -93,6 +93,14 @@ endif;
                     <b>Budget</b><br />                    
                     <input type="text" value="" name="budget"  />
                 </p>
+                
+                <p>
+                    <b>Discount %</b><br />
+                    <label>From</label>
+                    <input type="text" placeholder="discount from" value="" name="discount_from"  />
+                    <label>To</label>
+                    <input type="text" placeholder="discount to" value="" name="discount_to"  />
+                </p>
                 <button type="submit">Search</button>
             </form>
         </div>
